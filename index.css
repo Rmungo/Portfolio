@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family: "open sans";
+    
+}
+
+body {
+    background-color: black;
+    text-align: center;
+
+}
+
+.head {
+    font-size: 40px;
+}
+
+.navbar , footer {
+    background-color: grey;
+
+}
+
+.enter {
+    color: black;
+    margin-bottom: 15px;
+}
