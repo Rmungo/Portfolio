@@ -23,10 +23,10 @@ body {
 }
 
 
-.head {
-    /* font-size: 34px; */
+/* .head {
+     font-size: 34px; 
 
-}
+} */
 
 .navbar , footer {
     background-color: grey;
@@ -151,6 +151,8 @@ body {
     .tagline {
         font-size: 18px;
         width: 250px;
+        position: relative;
+        top: 100px;
     }
 
     .enter {
@@ -159,11 +161,11 @@ body {
         position: relative;
         right: 70px;
     }
+
+    footer {
+        position: relative;
+        top: 125px;
+        margin-bottom: 550px;
+    }
 }
  
-@media screen and (min-width:422px){
-    .enter {
-        width: 75px;
-    }
-
-}
