@@ -15,6 +15,7 @@ body {
 
 .navbar , footer {
     background-color: grey;
+    position: relative;   
 }
 
 .logo {
@@ -30,5 +31,55 @@ body {
 
 .head {
     font-size: 36px; 
-
 } 
+
+.hero{
+    margin: 38px;
+}
+
+.enter {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.navbar {
+    bottom: 10px;
+}
+
+
+@media screen and (min-width: 394px){
+    .head {
+        font-size: 28px;
+        width:100%;
+        text-align: right;
+        margin: 0;
+        position: relative;
+        left: 40px;
+        display:flex;
+        justify-content: flex-end; 
+        top: 20px;
+        
+    }
+    .hero {
+        width: 305px;
+        position: relative;
+        top: 50px;
+        margin-bottom: 120px;
+    }
+
+    .tagline {
+        width: 200px;
+        position: relative;
+        top: 45px;
+        margin-bottom: 65px;
+        font-size: 18px;
+        
+    }
+
+    .enter {
+        position: relative;
+        right: 100px;
+        width: 50px;
+        height: 30px;
+    }
+}
