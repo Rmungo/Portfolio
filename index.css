@@ -109,6 +109,7 @@ body {
     footer {
      position: relative;
      top: 25px;
+     margin-bottom: 300px;
     }
 
 }
@@ -257,6 +258,7 @@ body {
     footer {
         position: relative;
         top: 95px;
+        margin-bottom: 300px;
     }
 
     .hero {
