@@ -10,7 +10,7 @@ body {
     position: relative;
     max-height: 812px;
     min-width:300px; 
-    /* background-image: url('title10agian.jpeg'); */
+    background-image: url('title10agian.jpeg'); 
     background-size: cover;
     
 }
