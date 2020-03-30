@@ -1,119 +1,91 @@
 *{
     box-sizing: border-box;
     color: white;
-    font-family: "Open Sans";   
+    
 }
 
 body {
-    background-color: black;
+    background-color: black; 
     text-align: center; 
     position: relative;
     max-height: 812px;
     min-width:300px; 
+    /* background-image: url('title10agian.jpeg'); */
+    background-size: cover;
+    
+}
+
+.tagline {
+    font-family: "roboto";
+    position: relative;
+    top: 60px;
+    line-height: 25px;
+    width: 290px;
+    display: inline-block;
 }
 
 
 .navbar , footer {
-    background-color: grey;
     position: relative;   
 }
 
 .logo {
-    width: 25px;
-    height: 20px;
+    width: 35px;
+    height: 30px;
     background-color: white;
     border: 2px solid grey;
-    position: relative;
-    top: 10px;
-    left: 10px;
-    
+    position: relative; 
+    bottom: 5px;
 }
 
 .head {
-    font-size: 36px; 
+    font-size: 36px;
+     
 } 
 
 .hero{
     margin: 38px;
+    font-family: "Vollkorn";
+     font-family: "yeseva one";
+    font-weight: bold;
+    position: relative;
 }
 
 .enter {
     color: black;
     margin-bottom: 15px;
+    width: 60px;
+    height: 25px;
+    position: relative;
+    top: 70px;
+    right: 2px;
 }
 
-.navbar {
+.navbar , a {
     bottom: 10px;
+    font-family: "Vollkorn";
+    display: flex;
+    justify-content: space-evenly;
+    top: 5px;
 }
 
-
-@media screen and (min-width: 394px){
-    .head {
-        font-size: 28px;
-        width:100%;
-        text-align: right;
-        margin: 0;
-        position: relative;
-        left: 40px;
-        display:flex;
-        justify-content: flex-end; 
-        top: 20px;
-        
-    }
-    .hero {
-        width: 305px;
-        position: relative;
-        top: 90px;
-        margin-bottom: 120px;
-
-    }
-
-    .tagline {
-        width: 200px;
-        position: relative;
-        top: 45px;
-        margin-bottom: 65px;
-        font-size: 18px;
-        
-    }
-
-    .enter {
-        position: relative;
-        right: 25px;
-        width: 50px;
-        height: 30px;
-    }
-
-    main {
-        width: 250px;
-    }
-    
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        width: 20%;
-        top: 0;
-        position: absolute; 
-        height: 150px;
-        line-height: 30px;
-    }
-
-    .logo {
-        position: relative;
-        left: 80%;
-        top: 0;
-        width: 75px;
-        height: 50px;
-
-}
-    footer {
-     position: relative;
-     top: 25px;
-     margin-bottom: 300px;
-    }
-
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    top: 100px;
 }
 
+.social {
+    width: 40px;
+    height: 40px;
+}
+
+#gmail {
+    height: 55px;
+    width: 45px;
+    position: relative;
+    bottom: 8px;
+}
 
 .projDesignPC{
     margin: auto;
@@ -155,15 +127,120 @@ body {
     bottom: 55px;
 }
 
-@media screen and (min-width: 500px){
-    .logo {
-        position: relative;
-        left: 9+-0%;
-        top: 0;
-        width: 75px;
-        height: 50px;
+
+@media screen and (min-width: 371px){
+    .tagline{
+        left: 35px;
+    }
+
+    .enter {
+        top: 110px;
+        right: 145px;
+    }
+    footer {
+        top: 145px;
+    }
+
 
 }
+
+@media screen and (min-width:420px){
+    .tagline {
+        width: 320px;
+    }
+
+    .enter {
+        right: 165px;
+    }
+
+    footer{
+        top: 185px;
+    }
+    
+}
+
+
+@media screen and (min-width: 550px){
+    .head {
+        width:100%;
+        text-align: right;
+        margin: 0;
+        position: relative;
+        left: 40px;
+        display:flex;
+        justify-content: flex-end; 
+        top: 20px;
+        
+    }
+    .hero {
+        width: 305px;
+        position: relative;
+        top: 60px;
+        margin-bottom: 120px;
+        font-size: 72p;
+    }
+
+    .tagline {
+        width: 200px;
+        position: relative;
+        top: 45px;
+        right: 15px;
+        margin-bottom: 65px;
+        font-size: 18px;
+       
+        
+    }
+
+    .enter {
+        position: relative;
+        left: 65px;
+        width: 65px;
+        height: 30px;
+        top: 0px;
+    }
+
+    main {
+        width: 250px;
+    }
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        top: 0;
+        position: absolute; 
+        height: 250px;
+        line-height: 30px;
+    }
+
+    .logo {
+        position: relative;
+        width: 75px;
+        height: 50px;
+        left: 20px;
+}
+    footer {
+     position: relative;
+     top: 10px;
+     width: 130px;
+     left: 400px;
+     
+    }
+
+    .tagline {
+        width: 320px;
+    }
+
+}
+
+
+@media screen and (min-width: 650px){
+    .logo {
+        position: relative;
+        width: 75px;
+        height: 50px;
+        left: 50px;
+    }
 }
 
 @media screen and (min-width: 747px){
@@ -232,6 +309,10 @@ body {
         display: flex;
         justify-content: space-evenly;
     }
+
+    footer {
+        left: 550px;
+    }
 }
 
 @media screen and (min-width: 850px){
@@ -243,11 +324,7 @@ body {
         left: 15px;
     }
 
-    .logo {
-        position: absolute;
-        width: 75px;
-        height: 50px;
-    }
+   
 
     .enter {
         position: relative;
@@ -256,9 +333,10 @@ body {
         top: 35px;
     }
     footer {
-        position: relative;
-        top: 95px;
-        margin-bottom: 300px;
+        display: flex;
+        position:relative;
+        top: 25px;
+        left: 650px;
     }
 
     .hero {
@@ -273,16 +351,38 @@ body {
     }
 
     .logo {
-        position: absolute;
+            width: 75px;
+            height: 50px;
+            left: 45px;
+        
+    }
+}
+
+@media screen and (min-width:950px){
+    .logo {
+        position: relative;
         width: 75px;
         height: 50px;
+        left: 70px;
     }
 }
    
 
 @media screen and (min-width: 1150px){
-    .hero {
-        right: 100px;
+.hero {
+        right: 60px;
+}
+.logo {
+    position: relative;
+    width: 75px;
+    height: 50px;
+    left: 95px;
+}
+footer {
+    display: flex;
+    position:relative;
+    top: 25px;
+    left: 750px;
 }
     
 }
