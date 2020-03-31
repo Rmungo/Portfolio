@@ -5,14 +5,12 @@
 }
 
 body {
-    background-color: black; 
+    /* background-color: black;  */
     text-align: center; 
     position: relative;
     max-height: 812px;
     min-width:300px; 
-    background-image: url('title10agian.jpeg'); 
-    background-size: cover;
-    
+    background-image: "ariel landscape.jpg";
 }
 
 .tagline {
@@ -323,7 +321,6 @@ footer {
         top: 85px;
         left: 15px;
     }
-
    
 
     .enter {
