@@ -36,10 +36,11 @@ body {
 .logo {
     width: 35px;
     height: 30px;
-    background-color: white;
-    border: 2px solid grey;
+    /* background-color: white; */
+    /* border: 2px solid rgb(161, 123, 123); */
     position: relative; 
     bottom: 5px;
+    background-image: url('clear peach logo.png');
 }
 
 .head {
@@ -426,6 +427,6 @@ footer {
         width: 838px;
         font-size: 20px;
     }
-
+ 
 
 }
