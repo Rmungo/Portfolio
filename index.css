@@ -29,16 +29,15 @@ body {
 }
 
 
- .navbar , footer {
+.navbar , footer {
     position: relative;   
-} 
+}
 
 .logo {
     width: 30px;
     height: 35px;
     position: relative; 
     bottom: 2px;
-    
 }
 
 .head {
@@ -52,9 +51,18 @@ body {
      font-family: "yeseva one";
     font-weight: bold;
     position: relative; 
+    /* color: rgba(70, 24, 57, 1.0); */
     text-shadow: -4px -4px rgba(70, 24, 57, 0.8) ;
+
 } 
 
+        /* .hero:after {
+        content: " Hi, I'm Mungs.";
+        position: absolute;
+        left: 10px; top: 5px;
+        color: rgb(201, 199, 199);
+        
+    }  */
 
     
 
@@ -73,7 +81,7 @@ body {
     border-radius: 12px; 
 }
 
- .navbar , a {
+.navbar , a {
     bottom: 10px;
     font-family: "Vollkorn";
     display: flex;
@@ -81,7 +89,7 @@ body {
     top: 5px;
     text-shadow: -1px -2px rgba(70, 24, 57, 0.8) ;
     text-decoration: none;
-} 
+}
 
 footer {
     display: flex;
@@ -217,7 +225,7 @@ footer {
         width: 250px;
     }
     
-    /* .navbar {
+    .navbar {
         display: flex;
         flex-direction: column;
         width: 20%;
@@ -225,13 +233,13 @@ footer {
         position: absolute; 
         height: 250px;
         line-height: 30px;
-    } */
-/* 
+    }
+
     .logo {
         position: relative;
         width: 75px;
-        height: 80px; */
-        /* left: 15px; */
+        height: 80px;
+        left: 15px;
 }
     footer {
      position: relative;
@@ -249,12 +257,12 @@ footer {
 
 
 @media screen and (min-width: 650px){
-    /* .logo {
+    .logo {
         position: relative;
         width: 75px;
-        height: 80px; */
-        /* left: 50px; */
-    /* } */
+        height: 80px;
+        left: 50px;
+    }
 }
 
 @media screen and (min-width: 747px){
@@ -357,45 +365,41 @@ footer {
         top: 135px;
     }
 
-    /* .navbar {
+    .navbar {
         font-size: 20px;
         line-height: 50px;
         height: 250px;
         top: 25px;
-    } */
-/* 
+    }
+
     .logo {
             width: 75px;
-            height: 80px; */
-            /* left: 45px; */
+            height: 80px;
+            left: 45px;
         
-    /* } */
+    }
 }
 
 @media screen and (min-width:950px){
-    /* .logo {
+    .logo {
         position: relative;
         width: 75px;
-        height: 80px; */
-        /* left: 70px; */
-    /* } */
+        height: 80px;
+        left: 70px;
+    }
 }
    
 
 @media screen and (min-width: 1150px){
 .hero {
         right: 60px;
-        top: 95px;
 }
- .logo {
-    /* position: relative; */
+.logo {
+    position: relative;
     width: 75px;
-    height: 80px; 
-     /* left: 95px;  */
-    right: 155px;
-
- } 
-
+    height: 80px;
+    left: 95px;
+}
 footer {
     display: flex;
     position:relative;
