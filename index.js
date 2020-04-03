@@ -74,6 +74,7 @@ function showContacts(){
         <input  class = "social" id="gmail" type ="image" src= "https://thebottomline.as.ucsb.edu/wp-content/uploads/2018/05/Gmail_logo.max-2800x2800-696x696.png"data-target="mailto:rmungo49@gmail.com?subject=Hey! I had a look at your portfolio">
         <input  class = "social" id="linkd" type ="image" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Linkedin_Shiny_Icon.svg/1024px-Linkedin_Shiny_Icon.svg.png" data-target="https://www.linkedin.com/">
         `)
+        handleContactLinks();
     })
 }
 
