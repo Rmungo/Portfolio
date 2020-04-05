@@ -22,16 +22,16 @@ function handleProjectsClick(){
 
 function showProjects(){
     $('main').append(`<div class="name">
-    <p class= "projName"> <u><b>Project Name:</b></u>The World's Greatest Sports Quiz
+    <p class= "projName"> The World's Greatest Sports Quiz
     </p>
    </div>
            <div class = "designs">
-   <div class ="projDesignPC"></div>
-   <div class ="projDesignTab"></div>
-   <div class ="projDesignMob"></div>
+   <div class ="projDesignPC"><img class="screenShot" id="laptop" src= "laptopApp.png" alt="Laptop Screenshot" ></div>
+   <div class ="projDesignTab"><img class="screenShot" id="tablet" src= "tabApp.png" alt="Tablet Screenshot" ></div>
+   <div class ="projDesignMob"><img class="screenShot" id="mobile" src= "cellApp.png" alt="Mobile Screenshot" ></div>
            </div>
 <div class = "writeAndLinks">
-<p class ="projDes"> <u><b>Project Description:</b></u> 
+<p class ="projDes">
 So, you think you know sports huh? Well, until you've proven yourself agianst 
 'The World's Greatest Sports Quiz' - you don't know squat!! 'TWGSQ' brings you
  some of the toughest sports questions covering all the leagues you know and love. 
@@ -54,7 +54,7 @@ function runAboutMe(){
     $('main').empty();
     $('main').append(`  <div class ="aboutMe">
     <img class="me" src="daKid.jpeg" alt = "Dat Boy Yung Mungs">
-    <p> <u><b>About Me</b></u>:I'm a recent graduate of the Fullstack Engineering Path bootcamp at Thinkful.
+    <p> <u><b>About Me</b></u>: I'm a recent graduate of the Fullstack Engineering Path bootcamp at Thinkful.
     What i love most about being a web developer is that it satisfies my need for structure and organization while simultaniously allowing me to be free and 
     creative. It scratches both itches. Being originally from the San Francisco
     Bay Area, I have seen first hand how tech can quickly and decisvely change the world. I love solving problems, and truly get excited learning new frameworks and discovering nw ways to do things.
@@ -69,17 +69,21 @@ function showContacts(){
     $('.contacts').on('click',function(){
         clearPage();
         $('main').empty();
-        $('main').append(`
-        <input  class = "social" id="twitter" type ="image" src= "http://th02.deviantart.net/fs70/PRE/f/2012/268/e/1/twitter_neue_ios_icon_by_theintenseplayer-d5fwil3.png" data-target="https://twitter.com/">
-        <input  class = "social" id="gmail" type ="image" src= "https://thebottomline.as.ucsb.edu/wp-content/uploads/2018/05/Gmail_logo.max-2800x2800-696x696.png"data-target="mailto:rmungo49@gmail.com?subject=Hey! I had a look at your portfolio">
-        <input  class = "social" id="linkd" type ="image" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Linkedin_Shiny_Icon.svg/1024px-Linkedin_Shiny_Icon.svg.png" data-target="https://www.linkedin.com/">
+        $('main').append(`<div class="contactsDiv">
+        <input  class = "social contactsPage twitter" id="twitter" type ="image" src= "http://th02.deviantart.net/fs70/PRE/f/2012/268/e/1/twitter_neue_ios_icon_by_theintenseplayer-d5fwil3.png" data-target="https://twitter.com/">
+        <p class ="twitterHandle handle"> @MungoRashaan </p>
+        <input  class = "social contactsPage gmail"  type ="image" src= "https://thebottomline.as.ucsb.edu/wp-content/uploads/2018/05/Gmail_logo.max-2800x2800-696x696.png"data-target="mailto:rmungo49@gmail.com?subject=Hey! I had a look at your portfolio">
+        <p class ="emailHandle handle"> rmungo49@gmail </p>
+        <input  class = "social contactsPage linkd" id="linkd" type ="image" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Linkedin_Shiny_Icon.svg/1024px-Linkedin_Shiny_Icon.svg.png" data-target="https://www.linkedin.com/">
+        <p class ="linkedHandle handle"> Rashaan Mungo </p>
+        </div>
         `)
         handleContactLinks();
     })
 }
 
 function handleContactLinks(){
-    $('#twitter , #gmail , #linkd').on('click', function(e){
+    $('#twitter , #gmail , #linkd, .gmail').on('click', function(e){
         e.preventDefault();
         window.location.href = $(this).data('target');
     })

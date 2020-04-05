@@ -1,6 +1,5 @@
  *{
     box-sizing: border-box;
-    color: rgb(201, 199, 199);
     
 } 
 
@@ -11,7 +10,6 @@ html {
 
  body {
     text-align: center; 
-    /* position: relative; */
     min-width:315px; 
     background-image: url(pinklaptop.jpg);
     background-repeat: no-repeat;
@@ -25,10 +23,10 @@ html {
     font-family: "roboto";
     position: absolute;
     bottom: 25%;
-    left: 11%;
+    left: 12%;
     line-height: 25px;
-     width: 290px; 
-     min-width: 290px; 
+    width: 290px; 
+    min-width: 290px; 
     display: inline-block;
     text-shadow: -1px -2px rgba(70, 24, 57, 0.8) ;
     color: white;
@@ -57,23 +55,22 @@ html {
     font-weight: bold;
     text-align: center;
     text-shadow: -4px -4px rgba(70, 24, 57, 0.8) ;
-    
+    color: rgb(201, 199, 199);
 }  
 
-   
- 
 .enter {
     width: 65px;
     height: 25px;
     position: absolute;
     bottom: 20%;
-    left: 41%;
+    left: 27.5%;
     background-color: wheat;
     color: rgb(141, 24, 141);
     font-weight: bold;
     border: 2px solid rgb(141, 24, 141);
     border-radius: 12px; 
     display: inline-block;
+    margin-left: 50px;
 } 
 
  .navbar , a {
@@ -84,6 +81,7 @@ html {
     top: 5px;
     text-shadow: -1px -2px rgba(70, 24, 57, 0.8) ;
     text-decoration: none;
+    color: rgb(201, 199, 199);
 } 
 
  footer {
@@ -92,7 +90,7 @@ html {
     display: flex;
     justify-content: space-evenly;
     bottom: 0; 
-    right: 1%;
+    right: 2%;
         
 } 
 
@@ -108,71 +106,219 @@ html {
     bottom: 8px;
 } 
 
- .projDesignPC{
+   #laptop {
     margin: auto;
-    width: 150px;
-    background-color: white;
-    height:75px;
-    border-radius: 5px;
+    width: 200px;
+    background-color: black;
+    height:120px;
+    border-radius: 6px;
     position: relative;
     right: 25px;
-    border: 4px solid grey;
+    border: 4px solid wheat ;
 } 
- .projDesignTab{
+
+ #tablet {
     margin: auto;
-    width: 55px;
-    background-color: white;
-    height:75px;
-    border-radius: 5px;
+    width: 75px;
+    background-color: rgb(0, 0, 0);
+    height:105px;
+    border-radius: 6px;
     position: relative;
-    left: 85px;
-    bottom: 40px;
-    border: 4px solid grey;
+    left: 115px;
+    bottom: 50px;
+    border: 4px solid wheat;
 
 } 
 
- .projDesignMob{
+ #mobile {
     margin: auto;
-    width: 25px;
-    background-color: white;
-    height:45px;
+    width: 40px;
+    background-color: black;
+    height:65px;
     border-radius: 5px;
     position: relative;
-    left: 30px;
-    bottom: 60px;
-    border: 3px solid grey;
+    left: 40px;
+    bottom: 100px;
+    border: 4px solid wheat;
 } 
 
  .writeAndLinks{
     position: relative;
     bottom: 55px;
-} 
-
-@media screen and (max-width:325px){
-    /* .tagline {
-        left: 6%;
-    } */
 }
 
-@media screen and (min-width: 387px){
+ .me {
+    width: 250px;
+    position: relative;
+    top: 40px;
+    height: 315px;
+    margin-bottom: 50px;
+    border: 5px solid wheat;
+    border-radius: 25%
+ }
+
+ .aboutMe {
+    color: white;
+    text-shadow: -1px -2px rgba(70, 24, 57, 0.8) ;
+    font-family: "roboto";
+    line-height: 160%;
+    margin: 3px;
+    
+ }
+
+ .projName {
+    color: white;
+    text-shadow: -1px -2px rgba(70, 24, 57, 0.8) ;
+    font-family: "roboto";
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+ }
+
+ .projDes {
+    color: white;
+    text-shadow: -1px -2px rgba(70, 24, 57, 0.8) ;
+    font-family: "roboto";
+    line-height: 160%;
+    margin: 3px;
+    font-size: 18px;
+ }
+
+ .techUsed {
+    color: white;
+    text-shadow: -1px -2px rgba(70, 24, 57, 0.8) ;
+    font-family: "roboto";
+    line-height: 24px;
+    
+ }
+
+ .links {
+     display: flex;
+     justify-content: space-evenly;
+     position: relative; 
+     top: 15px;
+ }
+
+.contactsPage {
+    width: 150px;
+    height: 130px;
+}
+
+.gmail {
+    width: 160px;
+    height: 180px;
+}
+
+.contactsDiv {
+    position: relative;
+    top: 80px;
+}
+.handle {
+    color: white;
+    text-shadow: -1px -2px rgba(70, 24, 57, 0.8) ;
+    font-family: "roboto";
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media screen and (min-width:300px){
+    .tagline {
+        letter-spacing: 22%;
+        width: 320px;
+    }
+}
+
+@media screen and (min-width:350px){
+    .tagline {
+        letter-spacing: 22%;
+        width: 320px;
+        left: 12%;
+    }
+    .enter {
+        left: 40%;
+    }
+} */
+
+
+/* @media screen and (min-width: 387px){
     .hero {
         width: 300px;
         margin-right: auto;
         margin-left: auto;
 
-    }
+    } */
     /* .tagline {
         width: 362px;
     } */
+/* } */
+/* @media screen and (min-width: 405px){
+   .tagline {
+       left: 17%;
+       font-size: 18px;
+   }
+   .enter {
+       left: 41%;
+   }
 }
-@media screen and (min-width: 411px){
-    /* .tagline {
-        bottom: 25%;
+
+@media screen and (min-width: 445px){
+    .tagline {
+        left: 19%;
+        font-size: 18px;
+    }
+    .enter {
+        left: 42%;
+    }
+ }
+
+ @media screen and (min-width: 450px){
+    .tagline {
+        left: 18%;
         font-size: 20px;
-        width: 85%;
-        left: 7%;
-    } */
-}
+        width: 350px;
+    }
+    .enter {
+        left: 43%;
+    }
+    .hero {
+        font-size: 80px;
+    }
+ }
+
+ @media screen and (min-width: 550px){
+     .navbar {
+         font-size: 20px;
+    
+     }
+ }
 
 @media screen and (min-width: 568px){
     .hero {
@@ -196,62 +342,64 @@ html {
     .enter {
         left: 44%;
     }
-}
+} */
 
-@media screen and (min-width: 731px){
+/* @media screen and (min-width: 731px){ */
 
-    .hero {
+    /* .hero {
         position: absolute;
         right: 0;
         margin: 0;
-        top: 25%;
-    }
-    .tagline {
+        top: 38%;
+    } */
+    /* .tagline {
         width: 50%;
         left: 2%;
         bottom: 10%;
-    }
-    .enter {
-        left: 22%;
-        bottom: 5%;
-    }
-     footer {
+    } */
+    /* .enter {
+        left: 21%;
+        bottom: 6%;
+        width: 75px;
+        height: 30px;
+    } */
+     /* footer {
         justify-content: unset;
         left: 55%;
         width: 20%;
         height: 30px;
-    }
-     .navbar {
+    } */
+     /* .navbar {
          flex-direction: column;
          position: absolute;
          left: 5%;
          height: 50%;
-         top: 5%;
-    }
-     .logo {
+        
+    } */
+     /* .logo {
         width: 75px;
         height: 80px;
         position: relative; 
-
+        left: 5px;
      }
-}
+} */
 
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 768px){
     .navbar {
         top: 0;
         height: 40%;
     }
-}
+} */
 
-@media screen and (min-width: 812px){
+/* @media screen and (min-width: 812px){
     .navbar {
         top: 5%;
         height: 40%;
     }
-}
+} */
 
 
-@media screen and (min-width:1024px){
+/* @media screen and (min-width:1024px){
     .hero {
         width: 40%;
         top: 35%;
@@ -261,8 +409,8 @@ html {
         bottom: 8%;
         width: 68px;
     }
-}
-
+} */
+/* 
 @media screen and (min-width: 1366px){
     .hero {
         width: 30%;
@@ -275,7 +423,7 @@ html {
         left: 18%;
         width: 73px;
     }
-}
+} */
 /* 
 
 
