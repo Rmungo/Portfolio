@@ -73,6 +73,11 @@ html {
     margin-left: 50px;
 } 
 
+.enter:hover{
+    cursor: pointer;
+
+}
+
  .navbar , a {
     bottom: 10px;
     font-family: "Vollkorn";
