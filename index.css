@@ -6,7 +6,6 @@
 
 html {
     position: relative;
-    height: 100%;
     
 }
 
@@ -17,10 +16,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
-    height: 100%;
-    
-   
+    background-attachment: fixed;  
 } 
 
 .tagline {
