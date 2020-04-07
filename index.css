@@ -225,6 +225,7 @@ html {
 .contactsDiv {
     position: relative;
     top: 80px;
+    
 }
 .handle {
     color: white;
@@ -280,9 +281,13 @@ html {
     .enter {
         left: 27%;
     }
-    .contactsDiv {
+     .contactsDiv {
         top: 80px;
-    }
+        position: relative;
+        left: 110px;
+        width:200px;
+} 
+     
 }
 
 @media screen and (min-width:414px){
@@ -352,7 +357,9 @@ html {
         width: 20%;
         height: 16px;
     }
-
+    .contactsDiv {
+        width: 200px;
+    }
 }
 
 @media screen and (min-width: 515px){
@@ -363,6 +370,10 @@ html {
         left: 10px;
         max-width: 580px;
     }
+    .contactsDiv {
+        left: 165px;
+    }
+    
 }
 
 @media screen and (min-width: 568px){
@@ -380,6 +391,9 @@ html {
         position: relative;
         left: 70px;
    }
+   .contactsDiv {
+       left: 180px;
+   }
 }
 
 @media screen and (min-width:640px){
@@ -390,6 +404,9 @@ html {
     .meDes {
         left: 105px;
     }
+    .contactsDiv {
+        left: 210px;
+    }
 }
 
 @media screen and (min-width:667px){
@@ -398,6 +415,9 @@ html {
     }
     .meDes {
         left: 125px;
+    }
+    .contactsDiv {
+        left: 225px;
     }
 }
 
@@ -423,7 +443,9 @@ html {
         left: 150px;
         font-size: 18px;
     }
-    
+    .contactsDiv {
+        left: 260px;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -515,13 +537,13 @@ html {
     .meDes {
         left: 190px;
     }
-    .contactsDiv {
+     .contactsDiv {
         display: flex;
         position: relative;
         left: 126px;
         top: 200px;    
         
-}
+} 
     .handle {
          right: 130px;
          position: relative;
@@ -558,9 +580,9 @@ html {
     .meDes {
         left: 300px;
     }
-    .contactsDiv {
+     .contactsDiv {
         left: 200px;
-    }
+    } 
 }
 
 @media screen and (min-width:1100px){
@@ -651,9 +673,9 @@ html {
             left: 470px;
             line-height: 30px;
      }
-     .contactsDiv {
+      .contactsDiv {
         left: 400px;
-     }
+     } 
      .projDes {
          left: 800px;
      }
