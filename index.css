@@ -237,6 +237,10 @@ html {
 }
 
 @media screen and (min-width:320px){
+    body {
+        width: 320px;
+    }
+
     .contactsPage {
         width: 120px;
         height: 100px;
@@ -253,6 +257,11 @@ html {
 }
 
 @media screen and (min-width: 350px){
+
+    body {
+        width: 350px;
+    }
+
     .tagline {
         left: 6%;
     }
@@ -365,6 +374,10 @@ html {
 }
 
 @media screen and (min-width: 515px){
+    body {
+        width: 515px;
+    }
+
     .projDes {
         width: 90%;
         margin: 10px;
@@ -412,6 +425,9 @@ html {
 }
 
 @media screen and (min-width:667px){
+    body {
+        width: 667px;
+    }
     .enter {
         left: 11%;
     }
@@ -424,6 +440,10 @@ html {
 }
 
 @media screen and (min-width: 731px){
+
+    body {
+        width: 731px;
+    }
     .enter {
         left: 12%;
     }
@@ -451,6 +471,10 @@ html {
 }
 
 @media screen and (min-width: 768px){
+
+    body {
+        width: 768px;
+    }
     
     .projDes {
         left: 115px;
@@ -533,6 +557,10 @@ html {
 }
 
 @media screen and (min-width:812px){
+    body {
+        width: 812px;
+    }
+
     .enter {
         left: 9.5%;
     }
@@ -561,6 +589,11 @@ html {
 }
 
 @media screen and (min-width:860px) {
+
+    body {
+        width: 860px;
+    }
+    
     .projDes {
         left: 175px
     }
