@@ -407,6 +407,7 @@ html {
     }
     .hero {
         font-size: 70px;
+        top: 150px;
     }
     .navbar {
         font-size:20px;
@@ -434,6 +435,11 @@ html {
         bottom: 90px;
 
     }
+
+    .meDes {
+        left: 176px;
+    }
+
         #laptop {
         margin: auto;
         width: 350px;
@@ -475,9 +481,11 @@ html {
     .techUsed {
         position: relative;
         bottom: 90px;
+        left: 10px
     }
     .links {
         top: -70px;
+        left: 10px;
     }
 
     
@@ -542,7 +550,7 @@ html {
 
 @media screen and (min-width:900px) {
     .projDes {
-        left: 225px;
+        left: 255px;
     }
 }
 
@@ -600,16 +608,28 @@ html {
 
     
         .enter {
-            left: 8.5%;
-            bottom: 13%;
+            left: 7.75%;
+            bottom: 16%;
         }
         .tagline {
-            bottom: 15%;
+            bottom: 18%;
         }
 }
 
+@media screen and (min-width: 1215px){
+    .meDes {
+        left: 400px;
+    }
+}
+
+@media screen and (min-width: 1290px){
+    .meDes {
+        left: 450px;
+    }
+}
+
 @media screen and (min-width: 1365px){
-    .tagline {
+    /* .tagline {
         font-size: 20px;
         width: 350px;
         
@@ -620,7 +640,7 @@ html {
         height: 28px;
         font-size: 16px;
        
-    }
+    } */
     .navbar {
         font-size: 28px;
 
