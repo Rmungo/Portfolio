@@ -350,7 +350,7 @@ html {
         justify-content: unset;
         left: 55%;
         width: 20%;
-        height: 30px;
+        height: 16px;
     }
 
 }
@@ -406,7 +406,7 @@ html {
         left: 12%;
     }
     .hero {
-        font-size: 80px;
+        font-size: 70px;
     }
     .navbar {
         font-size:20px;
@@ -565,6 +565,13 @@ html {
     }
 }
 
+@media screen and (min-width:1120px){
+    .enter {
+        left: 8.5%;
+    }
+
+}
+
 @media screen and (min-width: 1150px){
     #laptop {
         left: -15%;
@@ -590,27 +597,29 @@ html {
         left: 930px;
         width: 300px;
     }
+
+    
+        .enter {
+            left: 8.5%;
+            bottom: 13%;
+        }
+        .tagline {
+            bottom: 15%;
+        }
 }
 
 @media screen and (min-width: 1365px){
     .tagline {
-        font-size: 22px;
-        width: 400px;
-        bottom: 15%;
+        font-size: 20px;
+        width: 350px;
         
-
     };
 
-    .hero {
-        top: 150px;
-
-    }
     .enter {
-        width: 100px;
-        height: 32px;
+        width: 80px;
+        height: 28px;
         font-size: 16px;
-        bottom: 12%;
-
+       
     }
     .navbar {
         font-size: 28px;
