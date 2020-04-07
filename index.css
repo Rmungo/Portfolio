@@ -6,19 +6,20 @@
 
 html {
     position: relative;
-    /* height: 100%; */
-    
+    min-height: 100%;
+   
 }
 
  body {
     text-align: center; 
-    min-width:315px; 
+    /* min-width:315px;  */
     background-image: url(pinklaptop.jpg);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    /* background-size: contain; */
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    /* height: 100%; */
+    min-height: 100%;
     
    
 } 
@@ -316,9 +317,9 @@ html {
 }
 
 @media screen and (min-width: 485px){
-      body {
-       min-height: 675px;
-    }  
+     body {
+        height: 675px;
+    } 
     .hero {
         position: relative; 
          width: 290px; 
