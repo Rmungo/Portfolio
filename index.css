@@ -6,7 +6,7 @@
 
 html {
     position: relative;
-    
+    min-height: 100%;
 }
 
  body {
@@ -16,7 +16,8 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;  
+    background-attachment: fixed; 
+    min-height: 100%; 
 } 
 
 .tagline {
