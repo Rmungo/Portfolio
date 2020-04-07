@@ -3,6 +3,7 @@
     
 } 
 
+
 html {
     position: relative;
     min-height: 100%;
@@ -16,6 +17,8 @@ html {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    min-height: 100%;
+    
    
 } 
 
@@ -23,7 +26,7 @@ html {
     font-family: "roboto";
     position: absolute;
     bottom: 25%;
-    left: 12%;
+    left: 4%;
     line-height: 25px;
     width: 290px; 
     min-width: 290px; 
@@ -46,6 +49,7 @@ html {
 
  .head {
     font-size: 36px;
+    
      
 }  
 
@@ -56,6 +60,7 @@ html {
     text-align: center;
     text-shadow: -4px -4px rgba(70, 24, 57, 0.8) ;
     color: rgb(201, 199, 199);
+    
 }  
 
 .enter {
@@ -63,7 +68,7 @@ html {
     height: 25px;
     position: absolute;
     bottom: 20%;
-    left: 27.5%;
+    left: 22.5%;
     background-color: wheat;
     color: rgb(141, 24, 141);
     font-weight: bold;
@@ -84,17 +89,18 @@ html {
     display: flex;
     justify-content: space-evenly;
     top: 5px;
+    font-size: 14px;
     text-shadow: -1px -2px rgba(70, 24, 57, 0.8) ;
     text-decoration: none;
     color: rgb(201, 199, 199);
 } 
 
  footer {
-    position: absolute;
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    bottom: 0; 
+    bottom: 25px; 
     right: 2%;
         
 } 
@@ -104,7 +110,7 @@ html {
     height: 40px;
 } 
 
- #gmail {
+ #gmail1 {
     height: 55px;
     width: 45px;
     position: relative;
@@ -165,6 +171,7 @@ html {
  .aboutMe {
     color: white;
     text-shadow: -1px -2px rgba(70, 24, 57, 0.8) ;
+    text-shadow: -1px -2px rgba(70, 24, 57, 0.8);
     font-family: "roboto";
     line-height: 160%;
     margin: 3px;
@@ -226,52 +233,402 @@ html {
     font-size: 20px;
 }
 
+@media screen and (min-width:320px){
+    .contactsPage {
+        width: 120px;
+        height: 100px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media screen and (min-width:300px){
-    .tagline {
-        letter-spacing: 22%;
-        width: 320px;
+    .gmail {
+        width: 130px;
+        height: 150px;
+    }
+    .contactsDiv {
+        position: relative;
+        top: 40px;
     }
 }
 
-@media screen and (min-width:350px){
+@media screen and (min-width: 350px){
     .tagline {
-        letter-spacing: 22%;
-        width: 320px;
+        left: 6%;
+    }
+}
+
+@media screen and (min-width: 360px){
+    .tagline {
+        left: 8%;
+    }
+    .enter {
+        left: 24.5%;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .tagline {
+        left: 9%;
+    }
+    .enter {
+        left: 25.5%;
+    }
+}
+
+@media screen and (min-width:400px){
+    .tagline {
         left: 12%;
     }
     .enter {
-        left: 40%;
+        left: 27%;
     }
-} */
+    .contactsDiv {
+        top: 80px;
+    }
+}
 
+@media screen and (min-width:414px){
+    .tagline {
+        left: 13%;
+    }
+    .enter {
+        left: 28%;
+    }
+}
+
+@media screen and (min-width:450px){
+    .tagline {
+        left: 16%;
+    }
+    .enter {
+        left: 30%;
+    }
+    .navbar, a {
+        font-size: 16px;
+    }
+    .projDes {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 485px){
+     body {
+        height: 675px;
+    } 
+    .hero {
+        position: relative; 
+         width: 290px; 
+         top: 180px;
+    }
+    .head {
+         display: flex; 
+         justify-content: flex-end; 
+    }
+    .navbar {
+        flex-direction: column;
+        position: absolute;
+        left: 5%;
+        height: 50%;
+}
+
+    .logo {
+        width: 75px;
+        height: 80px;
+        position: relative; 
+        left: 5px;  
+    }
+
+    .enter {
+        bottom: 17%;
+        left: 12.5%;
+    }
+
+    .tagline {
+        left: 0;
+        bottom: 20%;
+    }
+
+    footer {
+        justify-content: unset;
+        left: 55%;
+        width: 20%;
+        height: 30px;
+    }
+
+}
+
+@media screen and (min-width: 515px){
+    .projDes {
+        width: 90%;
+        margin: 10px;
+        position: relative;
+        left: 10px;
+        max-width: 580px;
+    }
+}
+
+@media screen and (min-width: 568px){
+    .tagline {
+        left: 2%;
+    }
+    .enter {
+        left: 13%;
+    }
+    .logo {
+        left: 0;
+    }
+   .meDes {
+        width:400px;
+        position: relative;
+        left: 70px;
+   }
+}
+
+@media screen and (min-width:640px){
+    .enter {
+        left: 12%;
+    }
+
+    .meDes {
+        left: 105px;
+    }
+}
+
+@media screen and (min-width:667px){
+    .enter {
+        left: 11%;
+    }
+    .meDes {
+        left: 125px;
+    }
+}
+
+@media screen and (min-width: 731px){
+    .enter {
+        left: 12%;
+    }
+    .hero {
+        font-size: 80px;
+    }
+    .navbar {
+        font-size:20px;
+    }
+    .tagline {
+        font-size: 18px;
+        width: 320px;
+    }
+    .projDes {
+        left: 40px;
+    }
+    .meDes {
+        left: 150px;
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+    
+    .projDes {
+        left: 115px;
+        width: 520px;
+        position: relative;
+        bottom: 90px;
+
+    }
+        #laptop {
+        margin: auto;
+        width: 350px;
+        background-color: white;
+        height:205px;
+        border-radius: 5px;
+        position: relative;
+        left: 5px;
+        border: 6px solid wheat;
+    }
+        #tablet{
+        margin: auto;
+        width: 125px;
+        height:175px;
+        border-radius: 8px;
+        border: 5px solid wheat;
+        position: relative;
+        left: 250px;
+        bottom: 100px;
+        
+    
+    }
+    
+       #mobile  {
+        margin: auto;
+        width: 75px;
+        height:110px;
+        border-radius: 5px;
+        border: 4px solid wheat;
+        position: relative;
+        left: 130px;
+        bottom: 175px;
+       
+    } 
+
+    .projName {
+        font-size: 24px;
+    }
+    .techUsed {
+        position: relative;
+        bottom: 90px;
+    }
+    .links {
+        top: -70px;
+    }
+
+    
+    .gmail {
+        width: 130px;
+        height: 150px;
+
+    }
+
+    #linkd {
+        height: 118px;
+    }
+
+    #twitter {
+            position: relative;
+            top: 10px;
+            height: 106px;
+    }
+
+    
+}
+
+@media screen and (min-width:812px){
+    .enter {
+        left: 9.5%;
+    }
+    .meDes {
+        left: 190px;
+    }
+    .contactsDiv {
+        display: flex;
+        position: relative;
+        left: 126px;
+        top: 200px;    
+        
+}
+    .handle {
+         right: 130px;
+         position: relative;
+         top: 120px;
+    }
+
+    .gmail {
+        position: relative;
+        bottom: 14px;
+    }
+
+    
+}
+
+@media screen and (min-width:860px) {
+    .projDes {
+        left: 175px
+    }
+}
+
+@media screen and (min-width: 823px){
+    .meDes {
+        left: 200px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .projDes {
+        left: 225px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .meDes {
+        left: 300px;
+    }
+    .contactsDiv {
+        left: 200px;
+    }
+}
+
+@media screen and (min-width:1100px){
+    .projDes {
+        left: 260px;
+        
+    }
+    .meDes {
+        left: 350px;
+    }
+}
+
+@media screen and (min-width: 1150px){
+    #laptop {
+        left: -15%;
+    }
+
+    #tablet {
+        left: 43px;
+    }
+
+    #mobile {
+        left: -65px;
+    }
+    .projDes{
+        left: 815px;
+        bottom: 450px;
+    }
+    .techUsed {
+        left: 400px;
+        bottom: 440px
+    }
+    .links {
+        top: -440px;
+        left: 930px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1365px){
+    .tagline {
+        font-size: 22px;
+        width: 400px;
+        bottom: 15%;
+        
+
+    };
+
+    .hero {
+        top: 150px;
+
+    }
+    .enter {
+        width: 100px;
+        height: 32px;
+        font-size: 16px;
+        bottom: 12%;
+
+    }
+    .navbar {
+        font-size: 28px;
+
+    }
+
+
+     .meDes {
+            left: 470px;
+            line-height: 30px;
+     }
+     .contactsDiv {
+        left: 400px;
+     }
+     .projDes {
+         left: 800px;
+     }
+}
 
 /* @media screen and (min-width: 387px){
     .hero {
