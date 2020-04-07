@@ -316,9 +316,9 @@ html {
 }
 
 @media screen and (min-width: 485px){
-     body {
+     /* body {
         height: 675px;
-    } 
+    }  */
     .hero {
         position: relative; 
          width: 290px; 
