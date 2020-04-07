@@ -6,7 +6,7 @@
 
 html {
     position: relative;
-    height: 100%;
+    /* height: 100%; */
     
 }
 
@@ -18,7 +18,7 @@ html {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    height: 100%;
+    /* height: 100%; */
     
    
 } 
@@ -316,9 +316,9 @@ html {
 }
 
 @media screen and (min-width: 485px){
-     /* body {
-        height: 675px;
-    }  */
+      body {
+       min-height: 675px;
+    }  
     .hero {
         position: relative; 
          width: 290px; 
