@@ -16,8 +16,10 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed; 
-    min-height: 100%; 
+    background-attachment: fixed;
+    min-height: 100%;
+    
+   
 } 
 
 .tagline {
