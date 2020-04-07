@@ -14,7 +14,7 @@ html {
     text-align: center; 
     /* min-width:315px;  */
     background-image: url(pinklaptop.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     /* background-size: contain; */
     background-size: cover;
     background-position: center center;
