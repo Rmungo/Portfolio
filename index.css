@@ -7,26 +7,22 @@
 html {
     position: relative;
     min-height: 100%;
-   
 }
 
 .bodyWrap {
     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
-
  body {
     text-align: center; 
     min-width:315px; 
     background-image: url(pinklaptop.jpg);
     background-repeat: no-repeat;
-    /* background-size: contain; */
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     min-height: 100%;
-    padding: 0;
-    margin: 0;
+    
    
 } 
 
@@ -425,7 +421,7 @@ html {
         left: 125px;
     }
     .contactsDiv {
-        left: 225px;
+        left: 225p;
     }
 }
 
