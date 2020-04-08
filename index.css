@@ -10,6 +10,10 @@ html {
    
 }
 
+main {
+     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); 
+}
+
  body {
     text-align: center; 
     min-width:315px; 
