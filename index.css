@@ -13,6 +13,7 @@ html {
  body {
     text-align: center; 
     min-width:315px; 
+    width: 1000px;
     background-image: url(pinklaptop.jpg);
     background-repeat: no-repeat;
     /* background-size: contain; */
