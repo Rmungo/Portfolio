@@ -57,7 +57,7 @@ function runAboutMe(){
     <p class ="meDes js-meDes"> <u><b>About Me</b></u>: I'm a recent graduate of the Fullstack Engineering Path bootcamp at Thinkful.
     What i love most about being a web developer is that it satisfies my need for structure and organization while simultaniously allowing me to be free and 
     creative. It scratches both itches. Being originally from the San Francisco
-    Bay Area, I have seen first hand how tech can quickly and decisvely change the world. I love solving problems, and truly get excited learning new frameworks and discovering nw ways to do things.
+    Bay Area, I have seen first hand how tech can quickly and decisvely change the world. I love solving problems, and truly get excited learning new frameworks and discovering new ways to do things.
     Aside from coding, I enjoy learning languages and am an aspiring polyglot. I guess you can say I love communicating 
     in as many ways as possible, be it with people or computers.
     </p>
@@ -76,8 +76,9 @@ function showContacts(){
         <p class ="emailHandle handle js-emailHandle js-handle"> rmungo49@gmail </p>
         <input  class = "social contactsPage linkd js-social js-contactsPage js-linkd" id="linkd" type ="image" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Linkedin_Shiny_Icon.svg/1024px-Linkedin_Shiny_Icon.svg.png" data-target="https://www.linkedin.com/in/rashaanmungo/">
         <p class ="linkedHandle handle js-linkedHandle js-handle"> Rashaan Mungo </p>
-        </div>
-        `)
+        <input class = "social  linkd js-social js-contactsPage js-github" id="github" type="image" src= "https://image.flaticon.com/icons/png/512/25/25231.png" data-target="https://github.com/Rmungo">
+        <p class ="gitHandle handle js-gitHandle js-handle"> Rashaan's GitHub </p>
+        </div>`)
         handleContactLinks();
     })
 }

@@ -207,6 +207,12 @@ html {
     
  }
 
+ #github {
+     width: 130px;
+     height: 118px;
+     position: relative;
+ }
+
  .links {
      display: flex;
      justify-content: space-evenly;
@@ -236,10 +242,15 @@ html {
     font-size: 20px;
 }
 
+.github {
+    width: 120px;
+    height: 118px;
+}
+
 @media screen and (min-width:320px){
     .contactsPage {
         width: 120px;
-        height: 100px;
+        height: 115px;
     }
 
     .gmail {
@@ -544,7 +555,7 @@ html {
         position: relative;
         left: 126px;
         top: 200px;    
-        width: 1000px;
+        width: 1200px;
         
 } 
     .handle {
@@ -645,6 +656,10 @@ html {
     .meDes {
         left: 400px;
     }
+
+    .tagline {
+        left: 2.5%;
+    }
 }
 
 @media screen and (min-width: 1290px){
@@ -654,34 +669,67 @@ html {
 }
 
 @media screen and (min-width: 1365px){
-    /* .tagline {
-        font-size: 20px;
-        width: 350px;
-        
-    };
 
-    .enter {
-        width: 80px;
-        height: 28px;
-        font-size: 16px;
-       
-    } */
     .navbar {
         font-size: 28px;
 
     }
-
 
      .meDes {
             left: 470px;
             line-height: 30px;
      }
       .contactsDiv {
-        left: 400px;
+        left: 275px;
      } 
      .projDes {
          left: 800px;
      }
+}
+
+@media screen and (min-width:1440px){
+    .tagline {
+        left: 2.5%;
+    }
+    .meDes {
+        left: 506px
+    }
+    #laptop {
+        width: 396px;
+    }
+    #tablet {
+        left: 57px;
+    }
+    #mobile {
+        left: -53px;
+    }
+    .projDes {
+        left: 833px;
+    }
+    .links {
+        left: 952px;
+    }
+}
+
+@media screen and (min-width:1600px){
+    .tagline {
+        left: 3%;
+    }
+    .meDes {
+        left: 585px;
+    }
+    #laptop {
+        left: 952px;
+    }
+    .projDes {
+        left: 937px;
+    }
+    .techUsed {
+        left: 419px;
+    }
+    .links {
+        left: 1050px;
+    }
 }
 
 /* @media screen and (min-width: 387px){
