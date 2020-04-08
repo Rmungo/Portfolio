@@ -344,13 +344,13 @@ html {
     }
 
     .enter {
-        bottom: 17%;
+        bottom: 8%;
         left: 12.5%;
     }
 
     .tagline {
         left: 0;
-        bottom: 20%;
+        bottom: 10%;
     }
 
     footer {
@@ -544,6 +544,7 @@ html {
         position: relative;
         left: 126px;
         top: 200px;    
+        width: 1000px;
         
 } 
     .handle {
