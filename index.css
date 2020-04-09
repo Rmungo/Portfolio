@@ -711,6 +711,48 @@ html {
     }
 }
 
+@media screen and (min-width: 1500px){
+    .meDes {
+        left: 538px;
+    }
+    .projDes {
+        left: 881px;
+    }
+    .links {
+        left: 1003px;
+    }
+    #laptop {
+        left: -14%;
+    }
+}
+
+@media screen and (min-width: 1550px){
+    .meDes {
+        left: 564px;
+    }
+    .projDes {
+        left: 891px;
+    }
+    .contactsDiv {
+        left: 322px;
+    }
+}
+
+@media screen and (min-width: 1575px){
+    .meDes {
+        left: 588px;
+    }
+    .projDes {
+        left: 903px;
+    }
+    #laptop {
+        width: 404px;
+    }
+    .links {
+        left: 1019px;
+    }
+}
+
 @media screen and (min-width:1600px){
     .tagline {
         left: 3%;
@@ -719,8 +761,9 @@ html {
         left: 585px;
     }
     #laptop {
-        left: 952px;
+        left: -13.5%;   
     }
+
     .projDes {
         left: 937px;
     }
@@ -729,6 +772,9 @@ html {
     }
     .links {
         left: 1050px;
+    }
+    .contactsDiv {
+        left: 347px;
     }
 }
 

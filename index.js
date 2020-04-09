@@ -31,12 +31,12 @@ function showProjects(){
    <div class ="projDesignMob js-projDesignMob"><img class="screenShot" id="mobile" src= "cellApp.png" alt="Mobile Screenshot" ></div>
            </div>
 <div class = "writeAndLinks js-writeAndLinks">
-<p class ="projDes js-projDes">
-So, you think you know sports huh? Well, until you've proven yourself agianst 
-'The World's Greatest Sports Quiz' - you don't know squat!! 'TWGSQ' brings you
- some of the toughest sports questions covering all the leagues you know and love. 
- NFL, NBA, MLB, NHL and even the NCAA - it's all here. Think you got what it takes? 
- Step up to the plate and bring your A-game. You're in the Big Leagues now!! 
+<p class ="projDes js-projDes"> This app is for any and all sports fans. It covers all professional 
+sports leagues in the United States of America. It functions as a quiz that displays a question and 
+seven multiple choice answers and returns a positive or negative answer screen depending on the answer
+ submitted. The app also calculates the user's score and delivers a custom screen informing the user 
+ of the results. I built this app because all of my friends think they know the most about sports and 
+ I wanted to settle the argument once and for all. 
 </p>  
 <p class ="techUsed js-techUsed">  <u>List of Technologies Used:</u> Html/Css/JavaScript/jQuery </p>
 <div class="links js-links">
@@ -54,12 +54,16 @@ function runAboutMe(){
     $('main').empty();
     $('main').append(`  <div class ="aboutMe js-aboutMe">
     <img class="me js-me" src="daKid.jpeg" alt = "Dat Boy Yung Mungs">
-    <p class ="meDes js-meDes"> <u><b>About Me</b></u>: I'm a recent graduate of the Fullstack Engineering Path bootcamp at Thinkful.
-    What i love most about being a web developer is that it satisfies my need for structure and organization while simultaniously allowing me to be free and 
-    creative. It scratches both itches. Being originally from the San Francisco
-    Bay Area, I have seen first hand how tech can quickly and decisvely change the world. I love solving problems, and truly get excited learning new frameworks and discovering new ways to do things.
-    Aside from coding, I enjoy learning languages and am an aspiring polyglot. I guess you can say I love communicating 
-    in as many ways as possible, be it with people or computers.
+    <p class ="meDes js-meDes"> <u><b>About Me</b></u>: I'm a recent graduate of the Fullstack Engineering 
+    Path boot camp at Thinkful. What I love most about being a web developer is that it satisfies my need 
+    for structure and organization while simultaneously allowing me to be free and creative. It scratches 
+    both itches. Being originally from the San Francisco Bay Area, I have seen first hand how tech can quickly
+     and decisively change the world and it has given me a deep passion for coding and being a part of that 
+     forward movement. I love solving problems, and I truly get excited learning new frameworks and discovering 
+     new ways to do things. I really can't wait to work on a great team of developers who I can interact with 
+     day-to-day and learn as much as possible from. Being an athlete most of my life, I really enjoy the camaraderie
+      and togetherness of being on a team. Aside from coding, I enjoy learning languages and am an aspiring polyglot.
+       I guess you can say I love communicating in as many ways as possible, be it with people or computers.
     </p>
 </div>`)
 })
@@ -112,3 +116,11 @@ function runSite(){
 }
 
 $(runSite());
+
+
+
+// So, you think you know sports huh? Well, until you've proven yourself agianst 
+// 'The World's Greatest Sports Quiz' - you don't know squat!! 'TWGSQ' brings you
+//  some of the toughest sports questions covering all the leagues you know and love. 
+//  NFL, NBA, MLB, NHL and even the NCAA - it's all here. Think you got what it takes? 
+//  Step up to the plate and bring your A-game. You're in the Big Leagues now!! 
